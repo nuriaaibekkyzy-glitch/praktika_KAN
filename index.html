@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Компьютерный анализ данных — практикум</title>
+  <meta name="description" content="Образовательная платформа по дисциплине «Компьютерный анализ данных»: 20 практических занятий по 2 часа в MS Excel.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="side" id="side">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="32" height="32"><rect x="2" y="2" width="28" height="28" rx="7" fill="currentColor"/><path d="M9 22V14M15 22V9M21 22V17" stroke="var(--on-accent)" stroke-width="3" stroke-linecap="round"/></svg>
+        </div>
+        <div>
+          <div class="brand-title">Компьютерный<br>анализ данных</div>
+          <div class="brand-sub">НИУ КЭУ · БИ-2-24 · 5 семестр</div>
+        </div>
+      </div>
+
+      <div class="progress-box">
+        <div class="progress-head"><span>Мой прогресс</span><b id="progressText">0 / 20</b></div>
+        <div class="progress-bar"><div id="progressFill"></div></div>
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#/" data-route="home">Главная</a>
+        <a href="#/practice" data-route="practice">Практические занятия</a>
+        <a href="#/lectures" data-route="lectures">Лекции</a>
+        <a href="#/test" data-route="test">Подготовка к РК</a>
+        <a href="#/srs" data-route="srs">Самостоятельная работа</a>
+        <a href="#/questions" data-route="questions">Вопросы к экзамену</a>
+        <a href="#/grading" data-route="grading">Оценивание</a>
+        <a href="#/literature" data-route="literature">Литература</a>
+      </nav>
+
+      <div class="side-foot">
+        <button class="theme-btn" id="themeBtn" type="button" aria-label="Сменить тему">◐ Тема</button>
+        <span>Преподаватель: Шакирова А.Т.</span>
+      </div>
+    </aside>
+
+    <header class="topbar">
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Меню">☰</button>
+      <span class="topbar-title">Компьютерный анализ данных</span>
+    </header>
+
+    <main class="main" id="main" tabindex="-1"></main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
