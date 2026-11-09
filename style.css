@@ -203,3 +203,4 @@ details.q p { margin: 8px 0 0; color: var(--ink-2); }
   .card { box-shadow: none; break-inside: avoid; }
   .table-wrap { max-height: none; overflow: visible; }
 }
+.topic-h { margin: 18px 0 10px; font-size: 1rem; color: var(--ink-2); font-weight: 600; }
